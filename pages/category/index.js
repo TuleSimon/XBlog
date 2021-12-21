@@ -7,7 +7,7 @@ import Head from 'next/head';
 
 const index = ({categories}) => {
   return (
-    <div className="bg-white shadow-lg rounded-lg p-8 pb-12 mb-8 h-screen mx-auto container">
+    <div className="bg-white shadow-lg rounded-lg p-8 pb-12 mb-8 min-h-screen mx-auto container">
          <Head>
       <title>Categories</title>
     </Head>

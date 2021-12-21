@@ -62,11 +62,11 @@ const Header = () => {
         </div>
         <div className={`${toggle?'full-h':'no-h'} md:hidden grid  grid-cols-1 my-3 overflow-hidden`}>         
               <Link href={`/`} >
-                <span className="md:float-right mt-2 actives navitem2 align-middle text-white ml-4 font-semibold cursor-pointer">Home</span></Link>
+                <span className="md:float-right mt-2 align-middle text-white ml-4 font-semibold cursor-pointer">Home</span></Link>
                 <Link href={`/category`}>
-                <span className="md:float-right mt-2 navitem align-middle text-white ml-4 font-semibold cursor-pointer">Categories</span></Link>
+                <span className="md:float-right mt-2  align-middle text-white ml-4 font-semibold cursor-pointer">Categories</span></Link>
                 <Link href={`/authors`}>
-                <span className="md:float-right mt-2 navitem align-middle text-white ml-4 font-semibold cursor-pointer">Authors</span></Link>
+                <span className="md:float-right mt-2  align-middle text-white ml-4 font-semibold cursor-pointer">Authors</span></Link>
           </div>
       </div>
     </div>

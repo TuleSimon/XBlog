@@ -7,7 +7,7 @@ const Footer = () => {
             <div className='grid grid-cols-2 md:grid-cols-4 gap-5 md:gap-10 text-white'>
                 <div className='flex flex-col gap-3 border-solid md:pr-5 md:border-r-2'>
                     <Link href="/">
-                    <span className="cursor-pointer font-bold text-xl md:text-4xl ">XBLOG</span>
+                    <span className="cursor-pointer font- text-gray-600 text-xl md:text-4xl ">XBLOG</span>
                     </Link>
                     <p> &copy; 2021, All right Reserved </p>
                     <p> Designed by: <span className='text-pink-700  font-bold'> XDEV</span> </p>
