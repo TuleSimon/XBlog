@@ -7,7 +7,7 @@ export const ReduxSlice = createSlice({
         snackbar: {
             open: false,
             type: 'success',
-            message: ''
+            message: '',
         },
         search: '',
         backdrop: false,
